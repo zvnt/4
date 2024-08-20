@@ -2,6 +2,8 @@
 
 denial of service tool for crashing internet connections using udp and tcp methods (wip).
 
+![image](https://github.com/user-attachments/assets/9a6d6d1f-7134-4004-90a6-32a581d15245)
+
 ## usage
 
 1. install the required package:
