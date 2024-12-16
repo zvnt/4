@@ -16,9 +16,9 @@ def udp_flood(ip, port):
                 num += 1
                 print(f" [{Fore.MAGENTA}+{Fore.RESET}] connections: {num}                    ", end='\r')
         except socket.error as e:
-            print(f" error: {e}", end='\r')
+            print(f" [{Fore.MAGENTA}!{Fore.RESET}] error: {e}", end='\r')
         except Exception as e:
-            print(f" error: {e}", end='\r')
+            print(f" [{Fore.MAGENTA}!{Fore.RESET}] error: {e}", end='\r')
 
 def tcp_flood(ip, port):
     num = 0
@@ -30,9 +30,9 @@ def tcp_flood(ip, port):
                 num += 1
                 print(f" [{Fore.MAGENTA}+{Fore.RESET}] connections: {num}                    ", end='\r')
         except socket.error as e:
-            print(f" error: {e}", end='\r')
+            print(f" [{Fore.MAGENTA}!{Fore.RESET}] error: {e}", end='\r')
         except Exception as e:
-            print(f" error: {e}", end='\r')
+            print(f" [{Fore.MAGENTA}!{Fore.RESET}] error: {e}", end='\r')
 
 def main():
     try:
